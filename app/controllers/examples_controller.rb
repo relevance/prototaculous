@@ -10,4 +10,15 @@ class ExamplesController < ApplicationController
     end)
     render :layout => false, :content_type => "text/plain"
   end
+
+  def chat
+    if request.post?
+      CHAT_MESSAGES << params[:message]
+      redirect_to
+    else
+      if request.xhr?
+        render :text => CHAT_MESSAGES.to_json
+      end
+    end
+  end
 end

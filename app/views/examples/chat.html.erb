@@ -1,0 +1,22 @@
+<script type="text/javascript" src="/javascripts/chat.js"></script>
+
+<h2>Chat Demo</h2>
+
+<form method="post">
+  <table>
+    <tr>
+      <td>Message</td>
+      <td><input type="text" name="message" id="message"/></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" value="post it"/></td>
+    </tr>
+  </table>
+</form>
+
+<ul style="list-style-type: none;">
+  <% CHAT_MESSAGES.reverse[0..20].each do |msg| %>
+    <li><%= msg %></li>
+  <% end %>
+</ul>
