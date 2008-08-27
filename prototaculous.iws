@@ -59,16 +59,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="validation.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="validation.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/validation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="70" selection-start="504" selection-end="504" vertical-scroll-proportion="0.44379562">
+            <state line="0" column="0" selection-start="0" selection-end="518" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server_validation.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/server_validation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="8" selection-start="343" selection-end="343" vertical-scroll-proportion="0.22189781">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
   </component>
   <component name="HierarchyBrowserManager">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -328,7 +342,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/javascripts/validation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="70" selection-start="504" selection-end="504" vertical-scroll-proportion="0.44379562">
+        <state line="0" column="0" selection-start="0" selection-end="518" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/server_validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="343" selection-end="343" vertical-scroll-proportion="0.22189781">
           <folding />
         </state>
       </provider>
