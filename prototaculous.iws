@@ -59,42 +59,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server_validation_with_updater.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/examples/server_validation_with_updater.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="56" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="HtmlPreview">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validate_field.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/examples/validate_field.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="HtmlPreview">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validation.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/examples/validation.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="58" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="HtmlPreview">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,7 +74,7 @@
       <file leaf-file-name="portal.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/examples/portal.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="220" selection-end="313" vertical-scroll-proportion="0.0800843">
+            <state line="1" column="0" selection-start="0" selection-end="71" vertical-scroll-proportion="-0.26027396">
               <folding />
             </state>
           </provider>
@@ -149,7 +113,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sortable.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sortable.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/examples/sortable.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
@@ -158,10 +122,46 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="extend.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/examples/extend.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="0" selection-end="61" vertical-scroll-proportion="0.0642978">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="HtmlPreview">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extend.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/examples/extend.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="19" selection-start="124" selection-end="124" vertical-scroll-proportion="-1.0410959">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="HtmlPreview">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/examples/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="25" selection-start="720" selection-end="720" vertical-scroll-proportion="-5.2054796">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="HtmlPreview">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="prototype.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/prototype.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="28" selection-start="363" selection-end="363" vertical-scroll-proportion="0.18867925">
+            <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -486,6 +486,11 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -550,14 +555,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="22" width="1539" height="878" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
       <window_info id="Slice" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="6" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2334004" order="0" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" order="0" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="1" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="5" />
@@ -611,30 +616,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/javascripts/examples/core_effects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="436" selection-end="436" vertical-scroll-proportion="0.27886498">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/examples/morph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.13013698">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/examples/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="523" selection-end="523" vertical-scroll-proportion="0.26445395">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="HtmlPreview">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/examples/morph.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
@@ -705,16 +686,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/examples/portal.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="220" selection-end="313" vertical-scroll-proportion="0.0800843">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="HtmlPreview">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/examples/autocomplete.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="400" selection-end="400" vertical-scroll-proportion="0.22376874">
@@ -723,13 +694,6 @@
       </provider>
       <provider editor-type-id="HtmlPreview">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/prototype.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="363" selection-end="363" vertical-scroll-proportion="0.18867925">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/examples/autocomplete.js">
@@ -751,6 +715,53 @@
         <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/examples/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="720" selection-end="720" vertical-scroll-proportion="-5.2054796">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="HtmlPreview">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/examples/portal.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="0" selection-end="71" vertical-scroll-proportion="-0.26027396">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="HtmlPreview">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/prototype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/examples/extend.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="124" selection-end="124" vertical-scroll-proportion="-1.0410959">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="HtmlPreview">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/examples/extend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="0" selection-end="61" vertical-scroll-proportion="0.0642978">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="HtmlPreview">
+        <state />
       </provider>
     </entry>
   </component>
