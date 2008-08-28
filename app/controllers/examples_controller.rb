@@ -20,5 +20,15 @@ class ExamplesController < ApplicationController
         render :partial => "messages"
       end
     end
+  end   
+                  
+  COLORS = %w{red green blue orange yellow black white brown purple polka-dot}.sort
+  def autocomplete
+    if request.xhr?                     
+      input = Regexp.new("^#{params[:user][:favorite_color]}") 
+      @colors = COLORS.find_all {|color| color[input] }
+      render :partial => "autocomplete"
+      return
+    end
   end
 end
