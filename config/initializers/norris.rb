@@ -1,0 +1,1 @@
+NORRIS_FACTS = File.readlines(File.join(RAILS_ROOT, "config/norris.txt"))

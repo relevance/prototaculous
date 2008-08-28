@@ -1,3 +1,12 @@
+class Array
+  def reorder!(positions)
+    result = self.dup
+    positions.each_with_index do |pos, idx|
+      self[idx] = result[pos.to_i]
+    end
+  end
+end
+
 class ExamplesController < ApplicationController
   skip_before_filter :verify_authenticity_token
 
@@ -29,6 +38,15 @@ class ExamplesController < ApplicationController
       @colors = COLORS.find_all {|color| color[input] }
       render :partial => "autocomplete"
       return
+    end
+  end  
+  
+  def sortable    
+    if request.xhr?
+      NORRIS_FACTS.reorder!(params[:norris_facts])
+      render :nothing => true
+    else 
+      @facts = NORRIS_FACTS.dup
     end
   end
 end

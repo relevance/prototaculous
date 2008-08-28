@@ -1,0 +1,12 @@
+<style>
+li {margin: 0.5em;}
+</style>
+
+<script type="text/javascript" src="/javascripts/examples/sortable.js"></script>
+<h2>Sortable Demo</h2>
+
+<ul id="norris_facts">
+  <% @facts.each_with_index do |fact, index| %>
+  <li id="norris_fact_<%= index %>"><%= fact %></li>
+  <% end %>
+</ul>    
