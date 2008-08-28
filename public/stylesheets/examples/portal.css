@@ -1,0 +1,143 @@
+* Sliding doors technique */
+.widget_nw {
+        background:transparent url(/images/example/portal/top_left.gif) no-repeat;
+        height:30px;
+}
+
+.widget_w {
+  border-left:1px solid #B9B9B9;
+  margin-left:5px;
+}
+
+.widget_sw {
+        background:transparent url(/images/example/portal/bottom_left.gif) no-repeat;
+        height:15px;
+}
+
+.widget_title {
+        background:  url(/images/example/portal/top_right.gif) repeat-x right top;
+        color:#123456;
+        font:bold 14px/25px Tahoma, Arial, sans-serif;
+        height:26px;
+        margin:0 0 0 15px;
+        padding:5px 0 0 0 ;
+        text-align:center;
+        margin-left:15px;
+}
+
+.widget_content {
+  background-color:#FDFDFD;
+  color:#71777A;
+  font:normal 12px/1em Tahoma, Arial, sans-serif;
+  overflow:hidden;
+  padding:5px;
+  border-right:1px solid #B9B9B9;
+  margin-right:5px;
+}
+
+.widget_statusbar {
+        background:transparent url(/images/example/portal/bottom_right.gif) repeat-x right top;
+        font-size:8px;
+        height:15px;
+        margin-left:11px;
+}
+
+.widget_draggable {
+  cursor:move;
+}
+
+/* Ghost */
+.widget_ghost {
+  background:#FFF;
+  opacity: 0.5;
+  filter:alpha(opacity=50);
+  position:relative;
+  border: 3px dashed #F00;
+  margin:0px;
+  padding:0;
+}
+
+h1 {
+  font-size: 40px;
+  line-height:40px;
+  text-align:center;
+}
+
+h2 {
+  font-size: 16px;
+  line-height:20px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 12px;
+}
+
+#page {
+  margin: 10px auto;
+}
+
+#widget_col_0 {
+  float:left;
+  width: 30%;
+  background:#E6E6E6;
+}
+
+#widget_col_1 {
+  width: 50%;
+  float:left;
+  background:#CCC;
+}
+
+#widget_col_2 {
+  float:left;
+  width: 20%;
+  background:#B3B3B3;
+}
+
+#widget_col_3 {
+  float:left;
+  width: 40%;
+  background:#B3B3B3;
+}
+
+#widget_col_4 {
+  float:left;
+  width: 60%;
+  background:#E6E6E6;
+}
+
+#control_buttons {
+  position:absolute;
+  right:0px;
+  top:10px;
+  width: 50px;
+}
+
+#edit_button {
+  position:relative;
+  float:left;
+  width:16px;
+  height:16px;
+  background: url(/images/examples/portal/edit.png);
+  behavior: url(stylesheets/png.htc);
+  margin-right:5px;
+}
+
+#delete_button {
+  position:relative;
+  float:left;
+  width:16px;
+  height:16px;
+  background: url(/images/examples/portal/delete.png);
+  behavior: url(stylesheets/png.htc);
+  margin-right:5px;
+}
+
+
+html {
+  filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}

@@ -15,8 +15,6 @@
   </table>
 </form>
 
-<ul style="list-style-type: none;">
-  <% CHAT_MESSAGES.reverse[0..20].each do |msg| %>
-    <li><%= msg %></li>
-  <% end %>
+<ul id="messages" style="list-style-type: none;">
+  <%= render :partial => "messages" %>
 </ul>

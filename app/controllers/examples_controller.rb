@@ -17,7 +17,7 @@ class ExamplesController < ApplicationController
       redirect_to
     else
       if request.xhr?
-        render :text => CHAT_MESSAGES.to_json
+        render :partial => "messages"
       end
     end
   end

@@ -1,9 +1,16 @@
 Demos
 
-Ajax Request
-Ajax Updater
 Periodical
 Form.serialize
 Event.observe
 DOM insertion
+
+Libs
+tabber             Patrick Fitzgerald
+supersleight
+tiny_mce
+ibox
+firebug
+portal             Xilinus Gruhier
+
 
