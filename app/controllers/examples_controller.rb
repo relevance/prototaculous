@@ -48,5 +48,17 @@ class ExamplesController < ApplicationController
     else 
       @facts = NORRIS_FACTS.dup
     end
-  end
+  end 
+  
+  def form_observer
+    if request.xhr?
+      @hits = []           
+      Dir["#{RAILS_ROOT}/app/views/examples/*.erb"].each do |demo| 
+        if File.read(demo)[params[:search]]
+          @hits << demo.gsub(/.*\//, '').gsub(/\..*/, '')  
+        end
+      end
+      render :partial => "form_observer"
+    end
+  end  
 end
