@@ -86,7 +86,7 @@
       <file leaf-file-name="form_observer.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/examples/form_observer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="316" selection-end="316" vertical-scroll-proportion="0.3433735">
+            <state line="12" column="17" selection-start="316" selection-end="316" vertical-scroll-proportion="0.40353984">
               <folding />
             </state>
           </provider>
@@ -555,7 +555,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="845" extended-state="6" />
+    <frame x="0" y="121" width="1440" height="746" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
@@ -753,7 +753,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/examples/form_observer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="316" selection-end="316" vertical-scroll-proportion="0.3433735">
+        <state line="12" column="17" selection-start="316" selection-end="316" vertical-scroll-proportion="0.40353984">
           <folding />
         </state>
       </provider>
