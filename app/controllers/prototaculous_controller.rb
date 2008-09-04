@@ -7,7 +7,7 @@ class Array
   end
 end
 
-class ExamplesController < ApplicationController
+class PrototaculousController < ApplicationController
   skip_before_filter :verify_authenticity_token
 
   def validate_field

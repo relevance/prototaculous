@@ -1,0 +1,2 @@
+class DojoController < ApplicationController
+end

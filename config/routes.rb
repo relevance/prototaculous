@@ -30,7 +30,7 @@ ActionController::Routing::Routes.draw do |map|
   #     admin.resources :products
   #   end
 
-  map.root :controller => "examples"
+  map.root :controller => "prototaculous"
 
   # See how all your routes lay out with "rake routes"
 
