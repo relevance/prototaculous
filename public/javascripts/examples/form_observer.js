@@ -6,13 +6,13 @@ document.observe("dom:loaded", function() {
       $('spinner').show();
       new Ajax.Updater(
         'results',
-        '/examples/form_observer',
+        '/prototaculous/form_observer',
         {
           asynchronous:true,
           evalScripts:true,
           // who owns the spinner?
           onComplete:function() {
-            Element.hide('spinner')
+            $('spinner').hide();
           },
           parameters: {search : value}
         }

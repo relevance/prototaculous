@@ -53,7 +53,7 @@ class PrototaculousController < ApplicationController
   def form_observer
     if request.xhr?
       @hits = []           
-      Dir["#{RAILS_ROOT}/app/views/examples/*.erb"].each do |demo| 
+      Dir["#{RAILS_ROOT}/app/views/prototaculous/*.erb"].each do |demo| 
         if File.read(demo)[params[:search]]
           @hits << demo.gsub(/.*\//, '').gsub(/\..*/, '')  
         end

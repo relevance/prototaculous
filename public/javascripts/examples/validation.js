@@ -10,10 +10,10 @@ function validate_favorite_color() {
 }
 
 document.observe("dom:loaded", function() {
-  $("name").observe("change", function() {
+  $("name").observe("blur", function() {
     $("name_validation").innerHTML = validate_name();
    });
-  $("favorite_color").observe("change", function() {
+  $("favorite_color").observe("blur", function() {
     $("favorite_color_validation").innerHTML = validate_favorite_color();
    });
 });
