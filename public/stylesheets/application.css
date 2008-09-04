@@ -1,0 +1,20 @@
+table#demo  {   
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+	
+table#demo thead {
+	background-color: #cccccc;
+}
+
+table#demo td{
+	border: 1px solid black;
+}
+
+table#demo td {
+	padding: 0.5em;
+}          
+
+table#demo tr.odd {  
+  background: #f1f1f1;  
+}
