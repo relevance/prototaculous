@@ -1,4 +1,5 @@
 class JqueryController < ApplicationController
+  skip_before_filter :verify_authenticity_token
   layout "jquery"
   
   def chat
