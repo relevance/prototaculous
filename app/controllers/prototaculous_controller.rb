@@ -26,7 +26,7 @@ class PrototaculousController < ApplicationController
       redirect_to
     else
       if request.xhr?
-        render :partial => "messages"
+        render :partial => "shared/chat_messages"
       end
     end
   end   
